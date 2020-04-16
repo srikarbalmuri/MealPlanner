@@ -1,0 +1,108 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: #FF9800;
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: #1B1B1B;
+    font-family: 'Anton', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+.sectionheading {
+    width: 100%;
+    margin-left: 25px;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    background-color: #303F9F;
+	background-size:cover;
+	background-position: right 0px top 500px;
+    
+}
+
+.heading {
+    text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px #ff0000;
+    te
+}
+
+.links {
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    color: white;
+}
+
+.nav a {
+        color: white;
+}
+
+#i-align
+{
+  margin-top: 4%;
+
+  margin-left: 10%;
+
+  margin-right: 10%;
+
+  margin-bottom: 4%;  
+
+  width: 80%
+}
+
+.section1 {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+
+.articlebox {
+    margin: 5px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    transition: background-color 1s ease-out;
+    font-family: 'Old Standard TT', serif;
+
+}
+
+.articlebox:hover {
+    background-color: yellow;
+    transform: scale(1.1);
+  background-color: ;
+  cursor:pointer;
+}
+
+.articlebox p {
+    margin: 0 5px;
+}
+
+.h4
+{
+    text-align: center;
+    color: white;
+}
+
+
+.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: yellow;    }
+    49%{    color: red; }
+    100%{   color: white;    }
+}
